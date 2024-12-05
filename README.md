@@ -1,6 +1,6 @@
 ### High-Performance Order Execution and Management System
 
-A robust and low-latency trading system implemented in C++ for trading on Deribit Test. The project supports order management, real-time market data streaming, and efficient WebSocket communication, tailored for trading in Spot, Futures, and Options markets.
+A robust and low-latency trading system implemented in C++ for trading on Deribit Test. The project supports order management, real-time market data streaming, and efficient WebSocket communication tailored for trading in Spot, Futures, and Options markets.
 
 ### **Features**
 
@@ -20,7 +20,7 @@ A robust and low-latency trading system implemented in C++ for trading on Deribi
 ### **Market Coverage**
 Instruments: Spot, Futures, and Options.
 Scope: All supported symbols on Deribit Test.
-**### Technical Specifications**
+**Technical Specifications**
 
 1. Language: C++
 2. Performance: Low-latency implementation.
@@ -30,7 +30,7 @@ Scope: All supported symbols on Deribit Test.
 -   Subscription Handling
 -   Efficient Message Broadcasting
 
-**### Bonus Features (Optional)**
+### **Bonus Features (Optional)**
 **Performance Analysis and Optimization**
 
 - Latency Benchmarking
@@ -53,7 +53,7 @@ Scope: All supported symbols on Deribit Test.
 - Benchmarking methodology and results.
 - Justification for optimizations.
 
-**### Installation**
+**Installation**
 **Prerequisites**
 
 1. Development Environment: Visual Studio 2022 or equivalent.
@@ -68,7 +68,7 @@ Scope: All supported symbols on Deribit Test.
 - Create an account on [Deribit Test](https://test.deribit.com/).
 - Generate API keys for authentication.
 
-**### Steps**
+### **Steps**
 
 1. **Clone this repository:**
 
@@ -87,20 +87,20 @@ git clone https://github.com/SS-Hossain/high-performance-trading-system.git
 3. **Build the project in Visual Studio.**
 4. **Run the executable.**
 
-**### Usage**
+### **Usage**
 **Place Orders:**
 Configure your API keys and use the CLI or integrated tools to place trades.
 
 **Stream Market Data:**
 Connect a client to the WebSocket server and subscribe to desired symbols to receive updates.
 
-**### Contributing**
+### **Contributing**
 Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
 
-**### License**
+### **License**
 This project is licensed under the MIT License.
 
-**### Contact**
+### **Contact**
 **SK Shaid Hossain
 Email: skshaidhossain777@gmail.com
 LinkedIn: [skshaidhossain](https://linkedin.com/in/skshaidhossain)
