@@ -70,14 +70,17 @@ Generate API keys for authentication.
 
 
 Steps
+
 1. Clone this repository:
+   
     git clone https://github.com/SS-Hossain/high-performance-trading-system.git
 
-2. Install dependencies via vcpkg:
+3. Install dependencies via vcpkg:
+
    ./vcpkg install curl websocketpp  
 
-3. Build the project in Visual Studio.
-4. Run the executable.
+5. Build the project in Visual Studio.
+6. Run the executable.
 
 
 Usage
