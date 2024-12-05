@@ -3,9 +3,9 @@ High-Performance Order Execution and Management System
 A robust and low-latency trading system implemented in C++ for trading on Deribit Test. The project supports order management, real-time market data streaming, and efficient WebSocket communication, tailored for trading in Spot, Futures, and Options markets.
 
 Features
+
 Core Functionality
 Order Management
-
 Place Orders
 Cancel Orders
 Modify Orders
@@ -14,11 +14,13 @@ View Current Positions
 Real-Time Market Data Streaming
 
 Implements a WebSocket server.
+
 Allows clients to subscribe to specific symbols.
 Streams continuous orderbook updates for subscribed symbols.
 
 
 Market Coverage
+
 Instruments: Spot, Futures, and Options.
 Scope: All supported symbols on Deribit Test.
 
@@ -50,12 +52,16 @@ CPU optimization.
 Documentation
 
 Detailed bottleneck analysis.
+
 Benchmarking methodology and results.
+
 Justification for optimizations.
 
 
 Installation
+
 Prerequisites
+
 Development Environment: Visual Studio 2022 or equivalent.
 
 Dependencies:
@@ -63,6 +69,7 @@ Dependencies:
 cURL library.
 WebSocket library (e.g., websocketpp).
 vcpkg for dependency management.
+
 API Setup:
 
 Create an account on Deribit Test.
@@ -84,25 +91,30 @@ Steps
 
 
 Usage
+
 Place Orders:
+
 Configure your API keys and use the CLI or integrated tools to place trades.
 
 Stream Market Data:
+
 Connect a client to the WebSocket server and subscribe to desired symbols to receive updates.
 
 
 Contributing
+
 Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
 
 
 License
+
 This project is licensed under the MIT License.
 
 
 
 Contact
-SK Shaid Hossain
 
+SK Shaid Hossain
 Email: skshaidhossain777@gmail.com
 LinkedIn: skshaidhossain
 GitHub: SS-Hossain
