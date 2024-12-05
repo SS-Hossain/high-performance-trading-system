@@ -1,4 +1,4 @@
-High-Performance Order Execution and Management System
+### High-Performance Order Execution and Management System
 
 A robust and low-latency trading system implemented in C++ for trading on Deribit Test. The project supports order management, real-time market data streaming, and efficient WebSocket communication, tailored for trading in Spot, Futures, and Options markets.
 
@@ -60,11 +60,13 @@ Generate API keys for authentication.
 ### Steps
 
 Clone this repository:
-
-git clone https://github.com/SS-Hossain/high-performance-trading-system.git  
+```
+git clone https://github.com/SS-Hossain/high-performance-trading-system.git
+```
 Install dependencies via vcpkg:
-
-./vcpkg install curl websocketpp  
+```
+./vcpkg install curl websocketpp
+```
 Build the project in Visual Studio.
 Run the executable.
 ### Usage
