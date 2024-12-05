@@ -101,14 +101,10 @@ Contributions are welcome! Please fork this repository, make your changes, and s
 This project is licensed under the MIT License.
 
 ### **Contact**
-**SK Shaid Hossain
+**SK Shaid Hossain**
+
 Email: skshaidhossain777@gmail.com
+
 LinkedIn: [skshaidhossain](https://linkedin.com/in/skshaidhossain)
-GitHub: [SS-Hossain](https://github.com/SS-Hossain)**
 
-Contact
-
-SK Shaid Hossain
-Email: skshaidhossain777@gmail.com
-LinkedIn: skshaidhossain
-GitHub: SS-Hossain
+GitHub: [SS-Hossain](https://github.com/SS-Hossain)
