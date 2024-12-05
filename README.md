@@ -2,93 +2,109 @@
 
 A robust and low-latency trading system implemented in C++ for trading on Deribit Test. The project supports order management, real-time market data streaming, and efficient WebSocket communication, tailored for trading in Spot, Futures, and Options markets.
 
-Features
-Core Functionality
-Order Management
-Place Orders
-Cancel Orders
-Modify Orders
-Retrieve Orderbook
-View Current Positions
-Real-Time Market Data Streaming
-Implements a WebSocket server.
-Allows clients to subscribe to specific symbols.
-Streams continuous orderbook updates for subscribed symbols.
-Market Coverage
+### **Features**
+
+1. Core Functionality
+- Order Management
+- Place Orders
+- Cancel Orders
+- Modify Orders
+- Retrieve Orderbook
+- View Current Positions
+
+2. Real-Time Market Data Streaming
+- Implements a WebSocket server.
+- Allows clients to subscribe to specific symbols.
+- Streams continuous orderbook updates for subscribed symbols.
+
+### **Market Coverage**
 Instruments: Spot, Futures, and Options.
 Scope: All supported symbols on Deribit Test.
-### Technical Specifications
+**### Technical Specifications**
 
-Language: C++
-Performance: Low-latency implementation.
-Error Handling and Logging: Comprehensive logging and error management.
-WebSocket Server:
-Connection Management
-Subscription Handling
-Efficient Message Broadcasting
-### Bonus Features (Optional)
-Performance Analysis and Optimization
+1. Language: C++
+2. Performance: Low-latency implementation.
+3. Error Handling and Logging: Comprehensive logging and error management.
+4. WebSocket Server:
+-   Connection Management
+-   Subscription Handling
+-   Efficient Message Broadcasting
 
-Latency Benchmarking
-Order placement latency.
-Market data processing latency.
-WebSocket message propagation delay.
-End-to-end trading loop latency.
-Optimization Techniques
+**### Bonus Features (Optional)**
+**Performance Analysis and Optimization**
 
-Memory management.
-Network communication.
-Data structure selection.
-Thread management.
-CPU optimization.
-Documentation
+- Latency Benchmarking
+- Order placement latency.
+- Market data processing latency.
+- WebSocket message propagation delay.
+- End-to-end trading loop latency.
 
-Detailed bottleneck analysis.
-Benchmarking methodology and results.
-Justification for optimizations.
-### Installation
-Prerequisites
+**Optimization Techniques**
 
-Development Environment: Visual Studio 2022 or equivalent.
-Dependencies:
-cURL library.
-WebSocket library (e.g., websocketpp).
-vcpkg for dependency management.
-API Setup:
-Create an account on Deribit Test.
-Generate API keys for authentication.
-### Steps
+- Memory management.
+- Network communication.
+- Data structure selection.
+- Thread management.
+- CPU optimization.
 
-Clone this repository:
+**Documentation**
+
+- Detailed bottleneck analysis.
+- Benchmarking methodology and results.
+- Justification for optimizations.
+
+**### Installation**
+**Prerequisites**
+
+1. Development Environment: Visual Studio 2022 or equivalent.
+2. Dependencies:
+
+- cURL library.
+- WebSocket library (e.g., websocketpp).
+- vcpkg for dependency management.
+
+3. API Setup:
+
+- Create an account on [Deribit Test](https://test.deribit.com/).
+- Generate API keys for authentication.
+
+**### Steps**
+
+1. **Clone this repository:**
+
 ```
-git clone https://github.com/SS-Hossain/high-performance-trading-system.git
+
+git clone https://github.com/SS-Hossain/high-performance-trading-system.git  
 ```
-Install dependencies via vcpkg:
+
+2. **Install dependencies via vcpkg:**
+
 ```
-./vcpkg install curl websocketpp
+
+./vcpkg install curl websocketpp  
 ```
-Build the project in Visual Studio.
-Run the executable.
-### Usage
-Place Orders:
+
+3. **Build the project in Visual Studio.**
+4. **Run the executable.**
+
+**### Usage**
+**Place Orders:**
 Configure your API keys and use the CLI or integrated tools to place trades.
 
-Stream Market Data:
+**Stream Market Data:**
 Connect a client to the WebSocket server and subscribe to desired symbols to receive updates.
 
-### Contributing
+**### Contributing**
 Contributions are welcome! Please fork this repository, make your changes, and submit a pull request.
 
-### License
+**### License**
 This project is licensed under the MIT License.
 
-### Contact
-SK Shaid Hossain
+**### Contact**
+**SK Shaid Hossain
 Email: skshaidhossain777@gmail.com
-LinkedIn: skshaidhossain
-GitHub: SS-Hossain
-
-
+LinkedIn: [skshaidhossain](https://linkedin.com/in/skshaidhossain)
+GitHub: [SS-Hossain](https://github.com/SS-Hossain)**
 
 Contact
 
